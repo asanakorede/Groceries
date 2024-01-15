@@ -1,102 +1,114 @@
-body {
-    background-image: url(../img/bcg.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+ @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Rubik+Bubbles&display=swap');
 
-#provisions {
-    background-color: cornflowerblue;
-    color: white;
-}
+ body {
+     background-image: url(../img/bcg.webp);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 200vh;
+ }
 
-#provisions:hover {
-    background-color: white;
-    color: black;
-}
+ #formOne {
+     font-family: 'Rubik Bubbles', system-ui;
+     padding-top: 50px;
+ }
 
-#confectionary {
-    background-color: cyan;
-    color: white;
-}
+ /* label {
+     font-family: 'Rubik Bubbles', system-ui;
+     padding-top: 50px;
+ }
 
-#confectionary:hover {
-    background-color: white;
-    color: black;
-}
+ input {
+     font-family: 'Rubik Bubbles', system-ui;
+     padding-top: 50px;
+ } */
 
-#chocolates {
-    background-color: darkcyan;
-    color: white;
-}
+ #provisions {
+     background-color: cornflowerblue;
+     color: white;
+ }
 
-#chocolates:hover {
-    background-color: white;
-    color: black;
-}
+ #provisions:hover {
+     background-color: white;
+     color: black;
+ }
 
-#cookies:hover {
-    background-color: white;
-    color: black;
-}
+ #confectionary {
+     background-color: cyan;
+     color: white;
+ }
 
-#cookies {
-    background-color: crimson;
-    color: white;
-}
+ #confectionary:hover {
+     background-color: white;
+     color: black;
+ }
 
-#drinks {
-    background-color: dimgrey;
-    color: white;
-}
+ #chocolates {
+     background-color: darkcyan;
+     color: white;
+ }
 
-#drinks:hover {
-    background-color: white;
-    color: black;
-}
+ #chocolates:hover {
+     background-color: white;
+     color: black;
+ }
 
-#foodstuff {
-    background-color: coral;
-    color: white;
-}
+ #cookies:hover {
+     background-color: white;
+     color: black;
+ }
 
-#foodstuff:hover {
-    background-color: white;
-    color: black;
-}
+ #cookies {
+     background-color: crimson;
+     color: white;
+ }
 
-button {
-    margin-top: 40px;
-}
+ #drinks {
+     background-color: dimgrey;
+     color: white;
+ }
 
-button:hover {
-    background-color: white;
-    color: black;
-}
+ #drinks:hover {
+     background-color: white;
+     color: black;
+ }
+
+ #foodstuff {
+     background-color: coral;
+     color: white;
+ }
+
+ #foodstuff:hover {
+     background-color: white;
+     color: black;
+ }
+
+ button {
+     margin-top: 40px;
+ }
+
+ button {
+     background-color: white;
+     padding: 10px 15px;
+     border-radius: 20px;
+     border: 0;
+     cursor: pointer;
+ }
 
 
+ .hover {
+     background-color: white;
+     color: black;
+ }
 
-#verb:hover {
-    background-color: white;
-    color: black;
-}
+ /* p {
+     box-sizing: border-box;
+     border: 2px solid blue;
+     padding: 10px 15px;
+     border-radius: 20px;
+ } */
 
-#verb {
-    background-color: indigo;
-    color: white;
-}
-
-#button:hover {
-    background-color: white;
-    color: black;
-}
-
-p {
-    box-sizing: border-box;
-    border: 2px solid blue;
-    padding: 10px 15px;
-    border-radius: 20px;
-}
-
-#story {
-    display: none;
-}
+ #order {
+     display: none;
+     font-family: 'Concert One', sans-serif;
+     font-size: 40px;
+ }
