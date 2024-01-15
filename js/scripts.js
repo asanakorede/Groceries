@@ -25,7 +25,7 @@ $(document).ready(function () {
         console.log(newOrders);
 
         $("#order").show();
-        $("#formOe").hide();
+        $("#formOne").hide();
 
         event.preventDefault();
     })
