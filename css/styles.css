@@ -111,4 +111,31 @@
      display: none;
      font-family: 'Concert One', sans-serif;
      font-size: 40px;
+     margin-left: 50px;
+ }
+
+ .bg-provisions {
+     background-color: crimson;
+ }
+
+ .bg-confectionary {
+     background-color: coral;
+ }
+
+ .bg-chocolates {
+     background-color: darkblue;
+     color: white;
+ }
+
+ .bg-cookies {
+     background-color: cornflowerblue;
+ }
+
+ .bg-drinks {
+     background-color: darkslategrey;
+     color: white;
+ }
+
+ .bg-foodstuff {
+     background-color: darkslateblue;
  }

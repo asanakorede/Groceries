@@ -15,17 +15,19 @@ $(document).ready(function () {
         $(".drinks").prepend(drinksInput);
         $(".foodstuff").prepend(foodstuffInput);
 
-        const orders = [provisionsInput, confectionaryInput, chocolatesInput, cookiesInput, drinksInput, foodstuffInput]
-        orders = orders.sort();
-        const newOrders = [];
-        orders.forEach(function (element) {
-            newOrders.push(element.toUperCase());
-        })
-
-        console.log(newOrders);
+      
 
         $("#order").show();
         $("#formOne").hide();
+
+        // const orders = [provisionsInput, confectionaryInput, chocolatesInput, cookiesInput, drinksInput, foodstuffInput]
+        // orders = orders.sort();
+        // const newOrders = [];
+        // orders.forEach(function (element) {
+        //     newOrders.push(element.toUperCase());
+        // })
+
+        // console.log(newOrders);
 
         event.preventDefault();
     })
